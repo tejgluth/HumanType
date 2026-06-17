@@ -9,6 +9,7 @@ This repo currently contains:
 - app metadata and icons recovered from the packaged app
 - dependency notes for running/building the rebuilt app
 - recovery manifests and code-object summaries to guide source reconstruction
+- a push-safe feature inventory in `docs/APP_FEATURES.md`
 
 This repo intentionally does not track:
 
