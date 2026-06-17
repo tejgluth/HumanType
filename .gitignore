@@ -1,0 +1,27 @@
+# macOS/user files
+.DS_Store
+
+# Original/recovered app bundles are local-only recovery inputs.
+HumanType.app/
+extracted/
+source/app-bundle/
+
+# Build outputs and virtual environments
+build/
+dist/
+.venv/
+venv/
+*.spec
+__pycache__/
+*.py[cod]
+
+# Binary recovery artifacts
+*.pyz
+*.pyc
+
+# Recovery dumps that include embedded service config or are too noisy for Git.
+source/recovered/*.dis
+source/recovered/*.strings.txt
+
+# Local app state
+.humantype_license.json

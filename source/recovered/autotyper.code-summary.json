@@ -1,0 +1,2427 @@
+[
+  {
+    "qualname": "<module>",
+    "line": 1,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "__doc__",
+      "json",
+      "os",
+      "platform",
+      "random",
+      "subprocess",
+      "sys",
+      "threading",
+      "time",
+      "tkinter",
+      "tk",
+      "urllib.error",
+      "urllib",
+      "urllib.request",
+      "uuid",
+      "_uuid",
+      "hashlib",
+      "webbrowser",
+      "ttk",
+      "messagebox",
+      "pyperclip",
+      "pynput",
+      "keyboard",
+      "pynput.keyboard",
+      "Controller",
+      "Key",
+      "resource_path",
+      "SUPABASE_URL",
+      "SUPABASE_ANON_KEY",
+      "PRODUCT_ID",
+      "path",
+      "join",
+      "expanduser",
+      "LICENSE_PATH",
+      "machine_fingerprint",
+      "_load_local_license",
+      "_save_local_license",
+      "is_activated_locally",
+      "_ssl_context",
+      "activate_license_key",
+      "LICENSE_REASONS",
+      "LAUNCH_LABEL",
+      "_launch_command",
+      "_mac_agent_path",
+      "is_launch_at_login_enabled",
+      "set_launch_at_login",
+      "system",
+      "OS_NAME",
+      "IS_MAC",
+      "IS_WIN",
+      "THEME",
+      "pick_font",
+      "FONT_MONO",
+      "FONT_SANS",
+      "FS_BODY",
+      "FS_DIM",
+      "FS_FAINT",
+      "FS_EYEBROW",
+      "FS_READOUT",
+      "FS_BTN",
+      "FS_STATUS",
+      "FS_TITLE",
+      "apply_theme",
+      "APP_NAME",
+      "CONFIG_PATH",
+      "DEFAULTS",
+      "load_config",
+      "save_config",
+      "NEARBY",
+      "SANITIZE",
+      "sanitize",
+      "nearby_typo",
+      "TypingEngine",
+      "app_bundle_path",
+      "reveal_app_in_finder",
+      "mac_has_accessibility",
+      "mac_has_input_monitoring",
+      "open_mac_accessibility_settings",
+      "open_mac_input_monitoring_settings",
+      "open_windows_security",
+      "ONBOARDING",
+      "Toplevel",
+      "OnboardingWizard",
+      "PRESETS",
+      "SLIDER_SECTIONS",
+      "Tooltip",
+      "CALIBRATION_PROMPT",
+      "analyze_typing",
+      "LicenseWindow",
+      "App",
+      "main",
+      "__name__"
+    ]
+  },
+  {
+    "qualname": "resource_path",
+    "line": 30,
+    "argcount": 1,
+    "varnames": [
+      "rel",
+      "base"
+    ],
+    "names": [
+      "getattr",
+      "sys",
+      "os",
+      "path",
+      "dirname",
+      "abspath",
+      "__file__",
+      "join"
+    ]
+  },
+  {
+    "qualname": "machine_fingerprint",
+    "line": 50,
+    "argcount": 0,
+    "varnames": [
+      "raw"
+    ],
+    "names": [
+      "_uuid",
+      "getnode",
+      "platform",
+      "node",
+      "hashlib",
+      "sha256",
+      "encode",
+      "hexdigest"
+    ]
+  },
+  {
+    "qualname": "_load_local_license",
+    "line": 57,
+    "argcount": 0,
+    "varnames": [
+      "f"
+    ],
+    "names": [
+      "open",
+      "LICENSE_PATH",
+      "json",
+      "load",
+      "FileNotFoundError",
+      "JSONDecodeError"
+    ]
+  },
+  {
+    "qualname": "_save_local_license",
+    "line": 65,
+    "argcount": 1,
+    "varnames": [
+      "data",
+      "f"
+    ],
+    "names": [
+      "open",
+      "LICENSE_PATH",
+      "json",
+      "dump",
+      "OSError"
+    ]
+  },
+  {
+    "qualname": "is_activated_locally",
+    "line": 73,
+    "argcount": 0,
+    "varnames": [
+      "data"
+    ],
+    "names": [
+      "_load_local_license",
+      "get",
+      "machine_fingerprint"
+    ]
+  },
+  {
+    "qualname": "_ssl_context",
+    "line": 84,
+    "argcount": 0,
+    "varnames": [
+      "ssl",
+      "bundled",
+      "certifi",
+      "ctx"
+    ],
+    "names": [
+      "ssl",
+      "resource_path",
+      "os",
+      "path",
+      "join",
+      "exists",
+      "create_default_context",
+      "Exception",
+      "certifi",
+      "where",
+      "check_hostname",
+      "CERT_NONE",
+      "verify_mode"
+    ]
+  },
+  {
+    "qualname": "activate_license_key",
+    "line": 114,
+    "argcount": 1,
+    "varnames": [
+      "key",
+      "ssl",
+      "url",
+      "payload",
+      "req",
+      "resp",
+      "body",
+      "result",
+      "reason",
+      "e",
+      "ctx",
+      "e2"
+    ],
+    "names": [
+      "ssl",
+      "strip",
+      "SUPABASE_URL",
+      "json",
+      "dumps",
+      "machine_fingerprint",
+      "encode",
+      "urllib",
+      "request",
+      "Request",
+      "add_header",
+      "SUPABASE_ANON_KEY",
+      "urlopen",
+      "_ssl_context",
+      "read",
+      "decode",
+      "loads",
+      "isinstance",
+      "dict",
+      "get",
+      "_save_local_license",
+      "error",
+      "HTTPError",
+      "code",
+      "SSLError",
+      "URLError",
+      "TimeoutError",
+      "OSError",
+      "create_default_context",
+      "check_hostname",
+      "CERT_NONE",
+      "verify_mode",
+      "Exception",
+      "ValueError",
+      "JSONDecodeError"
+    ]
+  },
+  {
+    "qualname": "_launch_command",
+    "line": 201,
+    "argcount": 0,
+    "varnames": [
+      "exe",
+      "app_path"
+    ],
+    "names": [
+      "getattr",
+      "sys",
+      "executable",
+      "platform",
+      "split",
+      "os",
+      "path",
+      "abspath",
+      "__file__"
+    ]
+  },
+  {
+    "qualname": "_mac_agent_path",
+    "line": 217,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "os",
+      "path",
+      "expanduser",
+      "LAUNCH_LABEL"
+    ]
+  },
+  {
+    "qualname": "is_launch_at_login_enabled",
+    "line": 222,
+    "argcount": 0,
+    "varnames": [
+      "winreg",
+      "k"
+    ],
+    "names": [
+      "IS_MAC",
+      "os",
+      "path",
+      "exists",
+      "_mac_agent_path",
+      "IS_WIN",
+      "winreg",
+      "OpenKey",
+      "HKEY_CURRENT_USER",
+      "KEY_READ",
+      "QueryValueEx",
+      "FileNotFoundError",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "set_launch_at_login",
+    "line": 243,
+    "argcount": 1,
+    "varnames": [
+      "enabled",
+      "prog",
+      "args",
+      "path",
+      "prog_args",
+      "plist",
+      "f",
+      "winreg",
+      "a",
+      "cmd",
+      "k"
+    ],
+    "names": [
+      "_launch_command",
+      "IS_MAC",
+      "_mac_agent_path",
+      "os",
+      "makedirs",
+      "path",
+      "dirname",
+      "join",
+      "LAUNCH_LABEL",
+      "open",
+      "write",
+      "exists",
+      "remove",
+      "IS_WIN",
+      "winreg",
+      "strip",
+      "OpenKey",
+      "HKEY_CURRENT_USER",
+      "KEY_SET_VALUE",
+      "SetValueEx",
+      "REG_SZ",
+      "DeleteValue",
+      "FileNotFoundError",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "set_launch_at_login.<genexpr>",
+    "line": 251,
+    "argcount": 1,
+    "varnames": [
+      ".0",
+      "a"
+    ],
+    "names": []
+  },
+  {
+    "qualname": "pick_font",
+    "line": 316,
+    "argcount": 1,
+    "varnames": [
+      "mono",
+      "f"
+    ],
+    "names": []
+  },
+  {
+    "qualname": "apply_theme",
+    "line": 342,
+    "argcount": 1,
+    "varnames": [
+      "root",
+      "style",
+      "T"
+    ],
+    "names": [
+      "configure",
+      "THEME",
+      "ttk",
+      "Style",
+      "theme_use",
+      "tk",
+      "TclError",
+      "FONT_SANS",
+      "FS_BODY",
+      "FS_DIM",
+      "FS_FAINT",
+      "FONT_MONO",
+      "FS_EYEBROW",
+      "FS_BTN",
+      "map"
+    ]
+  },
+  {
+    "qualname": "load_config",
+    "line": 470,
+    "argcount": 0,
+    "varnames": [
+      "cfg",
+      "f"
+    ],
+    "names": [
+      "dict",
+      "DEFAULTS",
+      "open",
+      "CONFIG_PATH",
+      "update",
+      "json",
+      "load",
+      "FileNotFoundError",
+      "JSONDecodeError"
+    ]
+  },
+  {
+    "qualname": "save_config",
+    "line": 480,
+    "argcount": 1,
+    "varnames": [
+      "cfg",
+      "f",
+      "e"
+    ],
+    "names": [
+      "open",
+      "CONFIG_PATH",
+      "json",
+      "dump",
+      "OSError",
+      "print"
+    ]
+  },
+  {
+    "qualname": "sanitize",
+    "line": 507,
+    "argcount": 1,
+    "varnames": [
+      "text",
+      "k",
+      "v"
+    ],
+    "names": [
+      "SANITIZE",
+      "items",
+      "replace"
+    ]
+  },
+  {
+    "qualname": "nearby_typo",
+    "line": 513,
+    "argcount": 1,
+    "varnames": [
+      "ch",
+      "opts",
+      "t"
+    ],
+    "names": [
+      "NEARBY",
+      "get",
+      "lower",
+      "random",
+      "choice",
+      "isupper",
+      "upper"
+    ]
+  },
+  {
+    "qualname": "TypingEngine",
+    "line": 521,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__doc__",
+      "__init__",
+      "property",
+      "running",
+      "can_resume",
+      "_rand",
+      "_chance",
+      "_press",
+      "_backspace",
+      "_interruptible_sleep",
+      "_build_queue",
+      "start",
+      "stop",
+      "reset",
+      "_emit",
+      "_finish_ui",
+      "_run",
+      "__static_attributes__"
+    ]
+  },
+  {
+    "qualname": "TypingEngine.__init__",
+    "line": 534,
+    "argcount": 5,
+    "varnames": [
+      "self",
+      "cfg",
+      "root",
+      "on_finish",
+      "on_status"
+    ],
+    "names": [
+      "cfg",
+      "root",
+      "Controller",
+      "kb",
+      "on_finish",
+      "on_status",
+      "_typing",
+      "threading",
+      "Event",
+      "_stop",
+      "_thread",
+      "_queue",
+      "_pos",
+      "_count",
+      "_text"
+    ]
+  },
+  {
+    "qualname": "TypingEngine.running",
+    "line": 549,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "_typing"
+    ]
+  },
+  {
+    "qualname": "TypingEngine.can_resume",
+    "line": 553,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "_queue",
+      "_pos",
+      "len"
+    ]
+  },
+  {
+    "qualname": "TypingEngine._rand",
+    "line": 559,
+    "argcount": 3,
+    "varnames": [
+      "self",
+      "lo",
+      "hi"
+    ],
+    "names": [
+      "random"
+    ]
+  },
+  {
+    "qualname": "TypingEngine._chance",
+    "line": 562,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "p"
+    ],
+    "names": [
+      "random"
+    ]
+  },
+  {
+    "qualname": "TypingEngine._press",
+    "line": 565,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "ch"
+    ],
+    "names": [
+      "kb",
+      "press",
+      "Key",
+      "enter",
+      "release",
+      "tab",
+      "type"
+    ]
+  },
+  {
+    "qualname": "TypingEngine._backspace",
+    "line": 573,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "n",
+      "_"
+    ],
+    "names": [
+      "range",
+      "_stop",
+      "is_set",
+      "kb",
+      "press",
+      "Key",
+      "backspace",
+      "release",
+      "_interruptible_sleep",
+      "cfg"
+    ]
+  },
+  {
+    "qualname": "TypingEngine._interruptible_sleep",
+    "line": 580,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "seconds",
+      "end"
+    ],
+    "names": [
+      "time",
+      "_stop",
+      "is_set",
+      "sleep"
+    ]
+  },
+  {
+    "qualname": "TypingEngine._build_queue",
+    "line": 588,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "text",
+      "c",
+      "q",
+      "i",
+      "n",
+      "ch",
+      "nxt",
+      "bad",
+      "lag",
+      "extras",
+      "j",
+      "ec"
+    ],
+    "names": [
+      "cfg",
+      "len",
+      "_chance",
+      "isalpha",
+      "append",
+      "nearby_typo",
+      "random",
+      "randint",
+      "range"
+    ]
+  },
+  {
+    "qualname": "TypingEngine.start",
+    "line": 631,
+    "argcount": 3,
+    "varnames": [
+      "self",
+      "text",
+      "resume",
+      "sanitized"
+    ],
+    "names": [
+      "_typing",
+      "sanitize",
+      "can_resume",
+      "_text",
+      "_build_queue",
+      "_queue",
+      "_pos",
+      "_count",
+      "_stop",
+      "clear",
+      "threading",
+      "Thread",
+      "_run",
+      "_thread",
+      "start"
+    ]
+  },
+  {
+    "qualname": "TypingEngine.stop",
+    "line": 650,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "_stop",
+      "set"
+    ]
+  },
+  {
+    "qualname": "TypingEngine.reset",
+    "line": 656,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "_stop",
+      "set",
+      "_queue",
+      "_pos",
+      "_count",
+      "_text"
+    ]
+  },
+  {
+    "qualname": "TypingEngine._emit",
+    "line": 663,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "msg"
+    ],
+    "names": [
+      "on_status",
+      "root",
+      "after",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "TypingEngine._emit.<lambda>",
+    "line": 667,
+    "argcount": 1,
+    "varnames": [
+      "m"
+    ],
+    "names": [
+      "on_status"
+    ]
+  },
+  {
+    "qualname": "TypingEngine._finish_ui",
+    "line": 671,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "on_finish",
+      "root",
+      "after",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "TypingEngine._run",
+    "line": 678,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "c",
+      "verb",
+      "action",
+      "payload",
+      "delay"
+    ],
+    "names": [
+      "cfg",
+      "_pos",
+      "_emit",
+      "_interruptible_sleep",
+      "_stop",
+      "is_set",
+      "_typing",
+      "can_resume",
+      "_finish_ui",
+      "len",
+      "_queue",
+      "_count",
+      "_backspace",
+      "_rand",
+      "_press",
+      "_chance",
+      "_text"
+    ]
+  },
+  {
+    "qualname": "app_bundle_path",
+    "line": 734,
+    "argcount": 0,
+    "varnames": [
+      "exe"
+    ],
+    "names": [
+      "getattr",
+      "sys",
+      "executable",
+      "split",
+      "os",
+      "path",
+      "dirname",
+      "abspath",
+      "__file__"
+    ]
+  },
+  {
+    "qualname": "reveal_app_in_finder",
+    "line": 748,
+    "argcount": 0,
+    "varnames": [
+      "path"
+    ],
+    "names": [
+      "app_bundle_path",
+      "os",
+      "path",
+      "exists",
+      "IS_MAC",
+      "subprocess",
+      "run",
+      "IS_WIN",
+      "normpath",
+      "dirname",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "mac_has_accessibility",
+    "line": 767,
+    "argcount": 0,
+    "varnames": [
+      "AXIsProcessTrusted"
+    ],
+    "names": [
+      "IS_MAC",
+      "ApplicationServices",
+      "AXIsProcessTrusted",
+      "bool",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "mac_has_input_monitoring",
+    "line": 782,
+    "argcount": 0,
+    "varnames": [
+      "Quartz",
+      "result"
+    ],
+    "names": [
+      "IS_MAC",
+      "Quartz",
+      "IOHIDCheckAccess",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "open_mac_accessibility_settings",
+    "line": 799,
+    "argcount": 0,
+    "varnames": [
+      "url"
+    ],
+    "names": [
+      "reveal_app_in_finder",
+      "subprocess",
+      "run",
+      "Exception",
+      "webbrowser",
+      "open"
+    ]
+  },
+  {
+    "qualname": "open_mac_input_monitoring_settings",
+    "line": 810,
+    "argcount": 0,
+    "varnames": [
+      "url"
+    ],
+    "names": [
+      "reveal_app_in_finder",
+      "subprocess",
+      "run",
+      "Exception",
+      "webbrowser",
+      "open"
+    ]
+  },
+  {
+    "qualname": "open_windows_security",
+    "line": 820,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "subprocess",
+      "run",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "OnboardingWizard",
+    "line": 895,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__doc__",
+      "__init__",
+      "_on_close_attempt",
+      "_can_finish",
+      "_open_settings",
+      "_open_settings2",
+      "_refresh_status",
+      "_finish",
+      "__static_attributes__",
+      "__classcell__"
+    ]
+  },
+  {
+    "qualname": "OnboardingWizard.__init__",
+    "line": 898,
+    "argcount": 4,
+    "varnames": [
+      "self",
+      "parent",
+      "on_close",
+      "required",
+      "info",
+      "T",
+      "sw",
+      "sh",
+      "x",
+      "y",
+      "pad",
+      "wm",
+      "steps_frame",
+      "n",
+      "step",
+      "row",
+      "btns",
+      "perm_row",
+      "action_row"
+    ],
+    "names": [
+      "super",
+      "__init__",
+      "on_close",
+      "required",
+      "ONBOARDING",
+      "get",
+      "OS_NAME",
+      "THEME",
+      "title",
+      "geometry",
+      "resizable",
+      "configure",
+      "winfo_viewable",
+      "transient",
+      "Exception",
+      "update_idletasks",
+      "winfo_screenwidth",
+      "winfo_screenheight",
+      "max",
+      "lift",
+      "attributes",
+      "after",
+      "focus_force",
+      "grab_set",
+      "tk",
+      "Frame",
+      "pack",
+      "Label",
+      "FONT_MONO",
+      "FONT_SANS",
+      "enumerate",
+      "status_lbl",
+      "IS_MAC",
+      "_refresh_status",
+      "ttk",
+      "Button",
+      "_open_settings",
+      "_open_settings2",
+      "IS_WIN",
+      "reveal_app_in_finder",
+      "_finish",
+      "done_btn",
+      "_can_finish",
+      "config",
+      "protocol",
+      "_on_close_attempt",
+      "_action",
+      "_action2"
+    ]
+  },
+  {
+    "qualname": "OnboardingWizard.__init__.<lambda>",
+    "line": 926,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "attributes"
+    ]
+  },
+  {
+    "qualname": "OnboardingWizard._on_close_attempt",
+    "line": 1009,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "required",
+      "_can_finish",
+      "master",
+      "destroy",
+      "_finish"
+    ]
+  },
+  {
+    "qualname": "OnboardingWizard._can_finish",
+    "line": 1017,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "acc",
+      "inp",
+      "acc_ok",
+      "inp_ok"
+    ],
+    "names": [
+      "IS_MAC",
+      "mac_has_accessibility",
+      "mac_has_input_monitoring"
+    ]
+  },
+  {
+    "qualname": "OnboardingWizard._open_settings",
+    "line": 1029,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "_action",
+      "IS_MAC",
+      "after",
+      "_refresh_status"
+    ]
+  },
+  {
+    "qualname": "OnboardingWizard._open_settings2",
+    "line": 1036,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "getattr",
+      "_action2",
+      "IS_MAC",
+      "after",
+      "_refresh_status"
+    ]
+  },
+  {
+    "qualname": "OnboardingWizard._refresh_status",
+    "line": 1042,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "acc",
+      "inp",
+      "mark",
+      "acc_txt",
+      "inp_txt",
+      "both_ok"
+    ],
+    "names": [
+      "mac_has_accessibility",
+      "mac_has_input_monitoring",
+      "status_lbl",
+      "config",
+      "THEME",
+      "required",
+      "hasattr",
+      "_can_finish",
+      "done_btn",
+      "after",
+      "_refresh_status"
+    ]
+  },
+  {
+    "qualname": "OnboardingWizard._refresh_status.mark",
+    "line": 1046,
+    "argcount": 1,
+    "varnames": [
+      "v"
+    ],
+    "names": []
+  },
+  {
+    "qualname": "OnboardingWizard._finish",
+    "line": 1078,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "required",
+      "_can_finish",
+      "grab_release",
+      "destroy",
+      "on_close"
+    ]
+  },
+  {
+    "qualname": "Tooltip",
+    "line": 1140,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__doc__",
+      "__init__",
+      "_schedule",
+      "_cancel",
+      "_show",
+      "_hide",
+      "__static_attributes__"
+    ]
+  },
+  {
+    "qualname": "Tooltip.__init__",
+    "line": 1144,
+    "argcount": 4,
+    "varnames": [
+      "self",
+      "widget",
+      "text",
+      "delay"
+    ],
+    "names": [
+      "widget",
+      "text",
+      "delay",
+      "_tip",
+      "_after",
+      "bind",
+      "_schedule",
+      "_hide"
+    ]
+  },
+  {
+    "qualname": "Tooltip._schedule",
+    "line": 1154,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "_"
+    ],
+    "names": [
+      "_cancel",
+      "widget",
+      "after",
+      "delay",
+      "_show",
+      "_after"
+    ]
+  },
+  {
+    "qualname": "Tooltip._cancel",
+    "line": 1158,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "_after",
+      "widget",
+      "after_cancel",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "Tooltip._show",
+    "line": 1166,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "T",
+      "x",
+      "y",
+      "tw",
+      "frame",
+      "inner"
+    ],
+    "names": [
+      "_tip",
+      "text",
+      "THEME",
+      "widget",
+      "winfo_rootx",
+      "winfo_rooty",
+      "winfo_height",
+      "tk",
+      "Toplevel",
+      "wm_overrideredirect",
+      "wm_geometry",
+      "attributes",
+      "Exception",
+      "Frame",
+      "pack",
+      "Label",
+      "FONT_SANS",
+      "max",
+      "FS_FAINT"
+    ]
+  },
+  {
+    "qualname": "Tooltip._hide",
+    "line": 1188,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "_"
+    ],
+    "names": [
+      "_cancel",
+      "_tip",
+      "destroy",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "analyze_typing",
+    "line": 1204,
+    "argcount": 1,
+    "varnames": [
+      "events",
+      "space_intervals",
+      "a",
+      "b",
+      "dt",
+      "pct",
+      "p20",
+      "fast",
+      "min_delay",
+      "max_delay",
+      "burst_min",
+      "burst_max",
+      "sm",
+      "space_min",
+      "space_max",
+      "fast_count",
+      "burst_rate",
+      "hes_count",
+      "hesitation_rate",
+      "total_keys",
+      "backspaces",
+      "typo_rate",
+      "correction_rate",
+      "cfg",
+      "elapsed",
+      "chars",
+      "wpm",
+      "summary"
+    ],
+    "names": [
+      "len",
+      "zip",
+      "append",
+      "sort",
+      "max",
+      "min",
+      "int",
+      "sum",
+      "round"
+    ]
+  },
+  {
+    "qualname": "analyze_typing.pct",
+    "line": 1236,
+    "argcount": 1,
+    "varnames": [
+      "p"
+    ],
+    "names": [
+      "min",
+      "max",
+      "int"
+    ]
+  },
+  {
+    "qualname": "analyze_typing.<genexpr>",
+    "line": 1263,
+    "argcount": 1,
+    "varnames": [
+      ".0",
+      "x"
+    ],
+    "names": []
+  },
+  {
+    "qualname": "analyze_typing.<genexpr>",
+    "line": 1267,
+    "argcount": 1,
+    "varnames": [
+      ".0",
+      "x"
+    ],
+    "names": []
+  },
+  {
+    "qualname": "analyze_typing.<genexpr>",
+    "line": 1272,
+    "argcount": 1,
+    "varnames": [
+      ".0",
+      "e"
+    ],
+    "names": []
+  },
+  {
+    "qualname": "LicenseWindow",
+    "line": 1304,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__doc__",
+      "__init__",
+      "_quit_app",
+      "_activate",
+      "_done",
+      "_finish_success",
+      "__static_attributes__",
+      "__classcell__"
+    ]
+  },
+  {
+    "qualname": "LicenseWindow.__init__",
+    "line": 1308,
+    "argcount": 3,
+    "varnames": [
+      "self",
+      "parent",
+      "on_success",
+      "T",
+      "sw",
+      "sh",
+      "pad",
+      "wm",
+      "btns"
+    ],
+    "names": [
+      "super",
+      "__init__",
+      "on_success",
+      "THEME",
+      "title",
+      "geometry",
+      "resizable",
+      "configure",
+      "winfo_viewable",
+      "transient",
+      "Exception",
+      "update_idletasks",
+      "winfo_screenwidth",
+      "winfo_screenheight",
+      "max",
+      "lift",
+      "attributes",
+      "after",
+      "grab_set",
+      "tk",
+      "Frame",
+      "pack",
+      "Label",
+      "FONT_MONO",
+      "FONT_SANS",
+      "FS_BODY",
+      "Entry",
+      "FS_READOUT",
+      "entry",
+      "bind",
+      "focus_set",
+      "FS_FAINT",
+      "msg",
+      "ttk",
+      "Button",
+      "_activate",
+      "activate_btn",
+      "protocol",
+      "_quit_app"
+    ]
+  },
+  {
+    "qualname": "LicenseWindow.__init__.<lambda>",
+    "line": 1326,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "attributes"
+    ]
+  },
+  {
+    "qualname": "LicenseWindow.__init__.<lambda>",
+    "line": 1350,
+    "argcount": 1,
+    "varnames": [
+      "e"
+    ],
+    "names": [
+      "_activate"
+    ]
+  },
+  {
+    "qualname": "LicenseWindow._quit_app",
+    "line": 1367,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "master",
+      "destroy"
+    ]
+  },
+  {
+    "qualname": "LicenseWindow._activate",
+    "line": 1371,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "worker"
+    ],
+    "names": [
+      "entry",
+      "get",
+      "activate_btn",
+      "config",
+      "msg",
+      "THEME",
+      "update_idletasks",
+      "threading",
+      "Thread",
+      "start"
+    ]
+  },
+  {
+    "qualname": "LicenseWindow._activate.worker",
+    "line": 1378,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "activate_license_key",
+      "after"
+    ]
+  },
+  {
+    "qualname": "LicenseWindow._activate.worker.<lambda>",
+    "line": 1380,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "_done"
+    ]
+  },
+  {
+    "qualname": "LicenseWindow._done",
+    "line": 1383,
+    "argcount": 3,
+    "varnames": [
+      "self",
+      "ok",
+      "reason"
+    ],
+    "names": [
+      "msg",
+      "config",
+      "THEME",
+      "grab_release",
+      "after",
+      "_finish_success",
+      "activate_btn",
+      "LICENSE_REASONS",
+      "get"
+    ]
+  },
+  {
+    "qualname": "LicenseWindow._finish_success",
+    "line": 1394,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "destroy",
+      "on_success"
+    ]
+  },
+  {
+    "qualname": "App",
+    "line": 1400,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "_gate_license",
+      "_gate_permissions",
+      "_needs_permission_gate",
+      "_set_window_icon",
+      "_show_onboarding",
+      "_build_ui",
+      "_show_tab",
+      "_build_guide",
+      "_build_settings",
+      "_build_calibrate",
+      "_cal_on_key",
+      "_cal_update_count",
+      "_cal_clear",
+      "_cal_apply",
+      "_blink_caret",
+      "_reopen_onboarding",
+      "_toggle_autostart",
+      "_add_slider",
+      "_apply_preset",
+      "_save_soon",
+      "_start",
+      "_stop",
+      "_on_finish",
+      "_restart",
+      "_set_status",
+      "_start_hotkeys",
+      "__static_attributes__"
+    ]
+  },
+  {
+    "qualname": "App.__init__",
+    "line": 1401,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "root"
+    ],
+    "names": [
+      "root",
+      "load_config",
+      "cfg",
+      "TypingEngine",
+      "_on_finish",
+      "_set_status",
+      "engine",
+      "vars",
+      "_label_refresh",
+      "title",
+      "APP_NAME",
+      "geometry",
+      "minsize",
+      "apply_theme",
+      "style",
+      "_set_window_icon",
+      "_caret_on",
+      "_caret_job",
+      "_build_ui",
+      "_start_hotkeys",
+      "_blink_caret",
+      "is_activated_locally",
+      "withdraw",
+      "after",
+      "_gate_license",
+      "_gate_permissions"
+    ]
+  },
+  {
+    "qualname": "App._gate_license",
+    "line": 1427,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "after_activation"
+    ],
+    "names": [
+      "LicenseWindow",
+      "root"
+    ]
+  },
+  {
+    "qualname": "App._gate_license.after_activation",
+    "line": 1428,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "root",
+      "deiconify",
+      "lift",
+      "focus_force",
+      "_gate_permissions"
+    ]
+  },
+  {
+    "qualname": "App._gate_permissions",
+    "line": 1435,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "needs_gate"
+    ],
+    "names": [
+      "_needs_permission_gate",
+      "_first_run",
+      "root",
+      "withdraw",
+      "after",
+      "deiconify"
+    ]
+  },
+  {
+    "qualname": "App._gate_permissions.<lambda>",
+    "line": 1442,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "_show_onboarding"
+    ]
+  },
+  {
+    "qualname": "App._needs_permission_gate",
+    "line": 1446,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "acc",
+      "inp"
+    ],
+    "names": [
+      "IS_MAC",
+      "mac_has_accessibility",
+      "mac_has_input_monitoring",
+      "cfg",
+      "get"
+    ]
+  },
+  {
+    "qualname": "App._set_window_icon",
+    "line": 1462,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "path"
+    ],
+    "names": [
+      "resource_path",
+      "os",
+      "path",
+      "exists",
+      "tk",
+      "PhotoImage",
+      "_icon_img",
+      "root",
+      "iconphoto",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "App._show_onboarding",
+    "line": 1473,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "required",
+      "done"
+    ],
+    "names": [
+      "OnboardingWizard",
+      "root"
+    ]
+  },
+  {
+    "qualname": "App._show_onboarding.done",
+    "line": 1474,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "cfg",
+      "save_config",
+      "root",
+      "deiconify",
+      "lift",
+      "focus_force"
+    ]
+  },
+  {
+    "qualname": "App._build_ui",
+    "line": 1485,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "T",
+      "root",
+      "header",
+      "title_row",
+      "title_col",
+      "wm",
+      "right_col",
+      "tabbar",
+      "name",
+      "b",
+      "content",
+      "footer",
+      "fpad",
+      "status_wrap",
+      "btns"
+    ],
+    "names": [
+      "THEME",
+      "root",
+      "ttk",
+      "Frame",
+      "pack",
+      "tk",
+      "Label",
+      "FONT_MONO",
+      "FS_TITLE",
+      "Button",
+      "_reopen_onboarding",
+      "BooleanVar",
+      "is_launch_at_login_enabled",
+      "autostart_var",
+      "Checkbutton",
+      "_toggle_autostart",
+      "tab_btns",
+      "FONT_SANS",
+      "FS_BODY",
+      "bind",
+      "guide_frame",
+      "settings_frame",
+      "calibrate_frame",
+      "_build_guide",
+      "_build_settings",
+      "_build_calibrate",
+      "FS_STATUS",
+      "StringVar",
+      "status_var",
+      "status",
+      "caret",
+      "_start",
+      "start_btn",
+      "_stop",
+      "stop_btn",
+      "_restart",
+      "restart_btn",
+      "IS_MAC",
+      "_show_tab"
+    ]
+  },
+  {
+    "qualname": "App._build_ui.<lambda>",
+    "line": 1529,
+    "argcount": 2,
+    "varnames": [
+      "e",
+      "n"
+    ],
+    "names": [
+      "_show_tab"
+    ]
+  },
+  {
+    "qualname": "App._show_tab",
+    "line": 1588,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "name",
+      "T",
+      "n",
+      "lbl"
+    ],
+    "names": [
+      "THEME",
+      "guide_frame",
+      "pack_forget",
+      "settings_frame",
+      "calibrate_frame",
+      "pack",
+      "tab_btns",
+      "items",
+      "config",
+      "FONT_SANS",
+      "FS_BODY"
+    ]
+  },
+  {
+    "qualname": "App._build_guide",
+    "line": 1606,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "parent",
+      "heading",
+      "para",
+      "step"
+    ],
+    "names": [
+      "THEME",
+      "ttk",
+      "Frame",
+      "pack",
+      "IS_MAC"
+    ]
+  },
+  {
+    "qualname": "App._build_guide.heading",
+    "line": 1612,
+    "argcount": 1,
+    "varnames": [
+      "txt"
+    ],
+    "names": [
+      "ttk",
+      "Label",
+      "pack"
+    ]
+  },
+  {
+    "qualname": "App._build_guide.para",
+    "line": 1616,
+    "argcount": 1,
+    "varnames": [
+      "txt"
+    ],
+    "names": [
+      "tk",
+      "Label",
+      "FONT_SANS",
+      "FS_BODY",
+      "pack"
+    ]
+  },
+  {
+    "qualname": "App._build_guide.step",
+    "line": 1621,
+    "argcount": 2,
+    "varnames": [
+      "num",
+      "txt",
+      "row"
+    ],
+    "names": [
+      "tk",
+      "Frame",
+      "pack",
+      "Label",
+      "FONT_MONO",
+      "FS_BODY",
+      "FONT_SANS"
+    ]
+  },
+  {
+    "qualname": "App._build_settings",
+    "line": 1668,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "parent",
+      "T",
+      "body",
+      "pf",
+      "i",
+      "name",
+      "b",
+      "section_titles",
+      "key",
+      "sliders",
+      "panel",
+      "inner",
+      "s"
+    ],
+    "names": [
+      "THEME",
+      "ttk",
+      "Frame",
+      "pack",
+      "Label",
+      "preset_btns",
+      "enumerate",
+      "PRESETS",
+      "Button",
+      "SLIDER_SECTIONS",
+      "tk",
+      "_add_slider"
+    ]
+  },
+  {
+    "qualname": "App._build_settings.<lambda>",
+    "line": 1681,
+    "argcount": 1,
+    "varnames": [
+      "n"
+    ],
+    "names": [
+      "_apply_preset"
+    ]
+  },
+  {
+    "qualname": "App._build_calibrate",
+    "line": 1703,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "parent",
+      "T",
+      "body",
+      "prompt_box",
+      "meta",
+      "cbtns"
+    ],
+    "names": [
+      "THEME",
+      "ttk",
+      "Frame",
+      "pack",
+      "Label",
+      "tk",
+      "FONT_SANS",
+      "FS_BODY",
+      "CALIBRATION_PROMPT",
+      "FONT_MONO",
+      "FS_READOUT",
+      "cal_count",
+      "FS_FAINT",
+      "cal_hint",
+      "cal_events",
+      "Text",
+      "cal_text",
+      "bind",
+      "_cal_on_key",
+      "_cal_update_count",
+      "Button",
+      "_cal_apply",
+      "cal_apply_btn",
+      "_cal_clear",
+      "cal_result"
+    ]
+  },
+  {
+    "qualname": "App._cal_on_key",
+    "line": 1768,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "event",
+      "ks",
+      "kind"
+    ],
+    "names": [
+      "keysym",
+      "len",
+      "char",
+      "isprintable",
+      "cal_events",
+      "append",
+      "time"
+    ]
+  },
+  {
+    "qualname": "App._cal_update_count",
+    "line": 1782,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "event",
+      "words",
+      "enough"
+    ],
+    "names": [
+      "len",
+      "cal_text",
+      "get",
+      "split",
+      "cal_count",
+      "config",
+      "cal_events",
+      "cal_apply_btn",
+      "cal_hint",
+      "THEME"
+    ]
+  },
+  {
+    "qualname": "App._cal_clear",
+    "line": 1796,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "cal_text",
+      "delete",
+      "cal_events",
+      "_cal_update_count",
+      "cal_result",
+      "config"
+    ]
+  },
+  {
+    "qualname": "App._cal_apply",
+    "line": 1802,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "fitted",
+      "summary",
+      "k",
+      "v"
+    ],
+    "names": [
+      "analyze_typing",
+      "cal_events",
+      "cal_result",
+      "config",
+      "THEME",
+      "items",
+      "cfg",
+      "vars",
+      "set",
+      "_label_refresh",
+      "PRESETS",
+      "update",
+      "save_config",
+      "_set_status"
+    ]
+  },
+  {
+    "qualname": "App._blink_caret",
+    "line": 1828,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "_caret_on",
+      "caret",
+      "config",
+      "THEME",
+      "tk",
+      "TclError",
+      "AttributeError",
+      "root",
+      "after",
+      "_blink_caret",
+      "_caret_job"
+    ]
+  },
+  {
+    "qualname": "App._reopen_onboarding",
+    "line": 1837,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "OnboardingWizard",
+      "root"
+    ]
+  },
+  {
+    "qualname": "App._toggle_autostart",
+    "line": 1840,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "want",
+      "ok"
+    ],
+    "names": [
+      "autostart_var",
+      "get",
+      "set_launch_at_login",
+      "_set_status",
+      "THEME",
+      "set"
+    ]
+  },
+  {
+    "qualname": "App._add_slider",
+    "line": 1852,
+    "argcount": 9,
+    "varnames": [
+      "self",
+      "parent",
+      "label",
+      "key",
+      "lo",
+      "hi",
+      "res",
+      "display",
+      "description",
+      "T",
+      "row",
+      "var",
+      "top",
+      "name_lbl",
+      "info_mark",
+      "fmt",
+      "val_lbl",
+      "on_move"
+    ],
+    "names": [
+      "THEME",
+      "tk",
+      "Frame",
+      "pack",
+      "DoubleVar",
+      "cfg",
+      "get",
+      "DEFAULTS",
+      "vars",
+      "Label",
+      "FONT_SANS",
+      "FS_BODY",
+      "FS_FAINT",
+      "FONT_MONO",
+      "FS_READOUT",
+      "Tooltip",
+      "_label_refresh",
+      "ttk",
+      "Scale"
+    ]
+  },
+  {
+    "qualname": "App._add_slider.fmt",
+    "line": 1870,
+    "argcount": 1,
+    "varnames": [
+      "v"
+    ],
+    "names": []
+  },
+  {
+    "qualname": "App._add_slider.on_move",
+    "line": 1884,
+    "argcount": 4,
+    "varnames": [
+      "v",
+      "k",
+      "lbl",
+      "d",
+      "fv"
+    ],
+    "names": [
+      "float",
+      "cfg",
+      "config",
+      "vars",
+      "set",
+      "_save_soon"
+    ]
+  },
+  {
+    "qualname": "App._add_slider.<lambda>",
+    "line": 1893,
+    "argcount": 3,
+    "varnames": [
+      "val",
+      "lbl",
+      "d"
+    ],
+    "names": [
+      "config"
+    ]
+  },
+  {
+    "qualname": "App._apply_preset",
+    "line": 1900,
+    "argcount": 2,
+    "varnames": [
+      "self",
+      "name",
+      "k",
+      "v",
+      "n",
+      "b"
+    ],
+    "names": [
+      "PRESETS",
+      "items",
+      "cfg",
+      "vars",
+      "set",
+      "_label_refresh",
+      "preset_btns",
+      "config",
+      "_set_status",
+      "lower",
+      "THEME",
+      "save_config"
+    ]
+  },
+  {
+    "qualname": "App._save_soon",
+    "line": 1913,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "getattr",
+      "root",
+      "after_cancel",
+      "_save_job",
+      "Exception",
+      "after"
+    ]
+  },
+  {
+    "qualname": "App._save_soon.<lambda>",
+    "line": 1920,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "save_config",
+      "cfg"
+    ]
+  },
+  {
+    "qualname": "App._start",
+    "line": 1923,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "text"
+    ],
+    "names": [
+      "pyperclip",
+      "paste",
+      "Exception",
+      "_set_status",
+      "THEME",
+      "save_config",
+      "cfg",
+      "start_btn",
+      "config",
+      "stop_btn",
+      "engine",
+      "start"
+    ]
+  },
+  {
+    "qualname": "App._stop",
+    "line": 1938,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "engine",
+      "stop"
+    ]
+  },
+  {
+    "qualname": "App._on_finish",
+    "line": 1941,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "update"
+    ],
+    "names": [
+      "root",
+      "after"
+    ]
+  },
+  {
+    "qualname": "App._on_finish.update",
+    "line": 1942,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "start_btn",
+      "config",
+      "stop_btn",
+      "engine",
+      "can_resume",
+      "restart_btn",
+      "pack",
+      "pack_forget"
+    ]
+  },
+  {
+    "qualname": "App._restart",
+    "line": 1955,
+    "argcount": 1,
+    "varnames": [
+      "self"
+    ],
+    "names": [
+      "engine",
+      "reset",
+      "start_btn",
+      "config",
+      "restart_btn",
+      "pack_forget",
+      "_set_status",
+      "THEME"
+    ]
+  },
+  {
+    "qualname": "App._set_status",
+    "line": 1962,
+    "argcount": 3,
+    "varnames": [
+      "self",
+      "msg",
+      "color",
+      "apply"
+    ],
+    "names": [
+      "root",
+      "after"
+    ]
+  },
+  {
+    "qualname": "App._set_status.apply",
+    "line": 1963,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "status_var",
+      "set",
+      "status",
+      "config",
+      "THEME"
+    ]
+  },
+  {
+    "qualname": "App._start_hotkeys",
+    "line": 1972,
+    "argcount": 1,
+    "varnames": [
+      "self",
+      "on_start",
+      "on_stop",
+      "bindings"
+    ],
+    "names": [
+      "IS_MAC",
+      "update",
+      "keyboard",
+      "GlobalHotKeys",
+      "_hk",
+      "daemon",
+      "start",
+      "Exception"
+    ]
+  },
+  {
+    "qualname": "App._start_hotkeys.on_start",
+    "line": 1975,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "root",
+      "after",
+      "_start"
+    ]
+  },
+  {
+    "qualname": "App._start_hotkeys.on_stop",
+    "line": 1977,
+    "argcount": 0,
+    "varnames": [],
+    "names": [
+      "root",
+      "after",
+      "_stop"
+    ]
+  },
+  {
+    "qualname": "main",
+    "line": 2003,
+    "argcount": 0,
+    "varnames": [
+      "root"
+    ],
+    "names": [
+      "tk",
+      "Tk",
+      "App",
+      "mainloop"
+    ]
+  }
+]
